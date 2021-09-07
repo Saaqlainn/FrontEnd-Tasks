@@ -43,7 +43,7 @@ body {
 .card__image {
    /* border: 2px solid red; */
    height: 165px;
-   width: autopx;
+   width: auto;
    background-image: url(images/illustration-hero.svg);
    background-position: center;
    background-repeat: no-repeat;
