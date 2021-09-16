@@ -131,14 +131,14 @@ span {
    text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width:320px) and (max-width: 480px) {
    body {
       color: #ffff;
    }
 
    .card__container {
       height: auto;
-      width: 374px;
+      width: 425px;
       display: flex;
       justify-content: center;
       align-items: center;
