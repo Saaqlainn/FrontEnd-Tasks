@@ -12,7 +12,7 @@ body {
    justify-content: center;
    align-items: center;
     
- background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg), #092852;
+ background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg), hsl(185, 75%, 39%);;
  background-position: right 51vw bottom 37vh,left 50vw top 45vh;
  background-repeat: no-repeat;
    /* font-family: 'Grechen Fuemen', cursive; */
