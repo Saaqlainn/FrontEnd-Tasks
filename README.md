@@ -1,4 +1,4 @@
-# Frontend challenges
+# Challenges By Frontend Mentor
 
 [Task 1st : Order Summary Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/1st.Order%20summary%20Card) <br>
 [Task 2nd : Stats Preview Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/2nd.Stats%20Preview%20Card) <br>
