@@ -11,11 +11,10 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-image: url(images/bg-pattern-top.svg),
-      url(images/bg-pattern-bottom.svg);
-   background-repeat: no-repeat;
-   /* background-position: top;
-    background-size: cover; */
+    
+ background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg), #092852;
+ background-position: right 51vw bottom 37vh,left 50vw top 45vh;
+ background-repeat: no-repeat;
    /* font-family: 'Grechen Fuemen', cursive; */
    /* background-color: #092852 ; */
 }
