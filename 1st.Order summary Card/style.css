@@ -87,8 +87,8 @@ body {
 }
 
 #annual__plan__container {
-   width: 320px;
    height: 72px;
+   width: 290px;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
@@ -107,6 +107,9 @@ body {
 }
 
 #annual_plan {
+   /* border: 1px solid black; */
+   height: auto;
+   width: 100px;
    color: #000000;
    font-weight: bold;
    font-size: 16px;
@@ -120,32 +123,32 @@ body {
 #change {
    font-size: 16px;
    font-weight: bold;
+   color: hsl(245, 75%, 52%);
+   margin-right: 10px;
 }
 
 #change :hover {
    text-decoration: none;
-   color: #2498ff;
+   color: hsl(224, 23%, 55%);
    cursor: pointer;
 }
 
-
-
 #card__button button {
    height: 35px;
-   width: 320px;
+   width: 285px;
    margin: 0px;
    padding: 5px;
    border-radius: 9px;
    border: none;
    cursor: pointer;
-   background-color: #0a03ec;
+   /* background-color: #0a03ec; */
+   background-color: hsl(245, 75%, 52%);
    color: #fff;
-   box-shadow: 0px 19px 18px -2px rgba(181,186,174,0.46);
-    
+   box-shadow: 0px 19px 18px -2px rgba(181, 186, 174, 0.46);
 }
 
 #card__button button:hover {
-   background-color: #4e43e4;
+   background-color: hsl(224, 23%, 55%);
    cursor: pointer;
 }
 
