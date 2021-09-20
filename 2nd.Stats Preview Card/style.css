@@ -142,7 +142,7 @@ span {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #031629;
+      background-color: hsl(233, 47%, 7%);
       text-align: center;
    }
 
