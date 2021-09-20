@@ -157,7 +157,7 @@ span {
       border-bottom-right-radius: 0px;
       border-bottom-left-radius: 0px;
       border-top-right-radius: 5px;
-      border-top-left-radius: 5px;
+      border-top-left-radius: 0px;
    }
 
    #card_data_container {
