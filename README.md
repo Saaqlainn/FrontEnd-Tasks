@@ -5,4 +5,4 @@
 [Task 2nd : Stats Preview Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/2nd.Stats%20Preview%20Card) <br>
 [Task 3rd : Three-Column Preview Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/3rd.Three-Column%20Preview%20Card) <br>
 [Task 4th : Profile card Component](https://saaqlainn.github.io/FrontEnd-Tasks/4th.Profile%20card%20component) <br>
-[Task 4th : Profile card Component](https://saaqlainn.github.io/FrontEnd-Tasks/4th.Profile%20card%20component) <br>
+[Task 5th : Social proof section master](https://saaqlainn.github.io/FrontEnd-Tasks/5th.social-proof-section%20master) <br>
