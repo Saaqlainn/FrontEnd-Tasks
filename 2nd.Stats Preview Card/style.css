@@ -149,15 +149,18 @@ span {
    #image_container {
       width: 304px;
       height: 220px;
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
    }
 
    #image_container img {
       width: 304px;
       height: 220px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
       border-bottom-right-radius: 0px;
       border-bottom-left-radius: 0px;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 0px;
    }
 
    #card_data_container {
@@ -165,10 +168,10 @@ span {
       width: 305px;
       height: 480px;
       text-align: center;
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
       border-top-right-radius: 0px;
       border-top-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
    }
 
    .card {
