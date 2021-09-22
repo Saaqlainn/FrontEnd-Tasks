@@ -2,12 +2,13 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   border: 1px solid red;
 }
 
 body {
    background-color: hsl(0, 0%, 100%);
    font-size: 15px;
-   font-family:'Spartan', sans-serif;
+   font-family: "Spartan", sans-serif;
    background: url(images/bg-pattern-bottom-desktop.svg);
 }
 
@@ -62,7 +63,7 @@ h1 {
    width: 275px;
    margin: 0 0 0 0px;
    padding: 10px;
-   font-family: 'Spartan', sans-serif;
+   font-family: "Spartan", sans-serif;
    font-size: 30px;
    font-weight: 700;
    color: hsl(300, 43%, 22%);
@@ -87,7 +88,6 @@ h1 {
    flex-direction: column;
    align-items: flex-end;
    justify-content: center;
-   
 }
 
 .stars {
@@ -178,7 +178,6 @@ h1 {
    margin: 25px 20px 20px;
    font-weight: 500;
    color: hsl(333, 80%, 67%);
-   
 }
 
 .all-cards .card_discription {
@@ -210,15 +209,18 @@ h1 {
    color: hsl(228, 45%, 44%);
 }
 
-@media  screen and (min-width:320px) and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
    main {
       height: 100vh;
       width: 100vw;
-
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
    }
 
    .container {
-      height: 1000px;
+      height: 1400px;
       width: 580px;
       display: flex;
       flex-direction: column;
@@ -248,17 +250,16 @@ h1 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-left:0px;
       width: 580px;
    }
-   
+
    #reviews {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 0 0 20px 0;
-
-
    }
 
    #report_guru {
@@ -282,7 +283,19 @@ h1 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 580px;
-      margin-top: 300px;
+      margin: -100px;
+      padding: 0px;
+      height: auto;
+      width: 580px;        
+      margin-top:20px;
+   }
+   #card-1 {
+      margin-top: 0;
+   }
+   #card-2 {
+      margin-top: 20px;
+   }
+   #card-3 {
+      margin-top: 20px;
    }
 }
