@@ -22,7 +22,7 @@ main {
    border: 2px solid black;
    border-style: dashed;
    height: 550px;
-   width: 1200px;
+   width: 1230px;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -32,7 +32,7 @@ main {
 .content {
    border: 1px solid blue;
    height: 250px;
-   width: 1200px;
+   width: 1230px;
    margin: 0;
    /* padding: 10px; */
    display: flex;
@@ -43,7 +43,7 @@ main {
 .heading {
    border: 2px solid red;
    height: 250px;
-   width: 450px;
+   width: 600px;
    display: flex;
    margin: 0;
    /* padding: 20px 20px 20px 40px; */
@@ -60,15 +60,19 @@ h1 {
    margin: 0 0 0 0px;
    padding: 10px;
    font-family: 'Spartan', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   color: hsl(300, 43%, 22%);
 }
 
 #discription {
    border: 1px solid rgb(255, 0, 0);
    height: 100px;
-   width: 385px;
-   /* margin: 10px 0 0 -10px; */
+   width: 500px;
    margin: 0;
    padding: 10px;
+   color: hsl(303, 10%, 53%);
+   font-weight: 500;
 }
 
 .ratings {
@@ -80,6 +84,7 @@ h1 {
    flex-direction: column;
    align-items: flex-end;
    justify-content: center;
+   
 }
 
 .stars {
@@ -90,10 +95,14 @@ h1 {
    border: 1px solid black;
    height: 50px;
    width: 400px;
-   margin: 0 60px 10px 0px;
+   margin: 0 80px 10px 0px;
    padding: 10px;
    text-align: center;
    border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: hsl(300, 24%, 96%);
+   color: hsl(300, 43%, 22%);
 }
 #report_guru {
    border: 1px solid black;
@@ -103,6 +112,10 @@ h1 {
    padding: 10px;
    text-align: center;
    border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: hsl(300, 24%, 96%);
+   color: hsl(300, 43%, 22%);
 }
 #bestTech {
    border: 1px solid black;
@@ -112,134 +125,68 @@ h1 {
    padding: 10px;
    text-align: center;
    border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: hsl(300, 24%, 96%);
+   color: hsl(300, 43%, 22%);
 }
 
-.cards {
+.card_container {
    border: 1px solid green;
    height: 300px;
-   width: 1200px;
+   width: 1230px;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
    align-items: center;
 }
 
-.first-card {
-   border: 1px solid red;
-   height: 200px;
+.all-cards {
+   height: 220px;
    width: 385px;
    margin: 0;
    padding: 20px;
    border-radius: 10px;
+   background-color: hsl(300, 43%, 22%);
 }
 
-.first-card img {
+.all-cards img {
    height: 50px;
    width: 50px;
    border-radius: 45px;
 }
 
-.first-card #name {
+.card_name {
    display: inline;
    height: 20px;
-   width: 110px;
+   width: 120px;
    position: absolute;
    margin: 5px 0 0px 20px;
+   font-size: 15px;
+   font-weight: bold;
+   color: hsl(0, 0%, 100%);
 }
 
-.first-card span {
+.all-cards span {
    display: inline;
    height: 20px;
-   width: 110px;
+   width: 120px;
    position: absolute;
    margin: 25px 20px 20px;
+   font-weight: 500;
+   color: hsl(333, 80%, 67%);
+   
 }
 
-.first-card #card_discription {
-   border: 1px solid red;
+.all-cards .card_discription {
    height: 90px;
    width: 340px;
    position: relative;
    margin: 20px 0 0 0;
    padding: 0px;
-}
-
-.second-card {
-   border: 1px solid red;
-   height: 200px;
-   width: 385px;
-   margin: 30px 0 0 0;
-   padding: 20px;
-   border-radius: 10px;
-}
-
-.second-card img {
-   height: 50px;
-   width: 50px;
-   border-radius: 45px;
-}
-
-.second-card #name {
-   display: inline;
-   height: 20px;
-   width: 110px;
-   position: absolute;
-   margin: 5px 0 0px 20px;
-}
-
-.second-card span {
-   display: inline;
-   height: 20px;
-   width: 110px;
-   position: absolute;
-   margin: 25px 20px 20px;
-}
-
-.second-card #card_discription {
-   height: 90px;
-   width: 340px;
-   position: relative;
-   margin: 20px 0 0 0;
-   padding: 0px;
-}
-
-.third-card {
-   border: 1px solid red;
-   height: 200px;
-   width: 385px;
-   margin: 60px 0 0 0;
-   padding: 20px;
-   border-radius: 10px;
-}
-
-.third-card img {
-   height: 50px;
-   width: 50px;
-   border-radius: 45px;
-}
-
-.third-card #name {
-   display: inline;
-   height: 20px;
-   width: 110px;
-   position: absolute;
-   margin: 5px 0 0px 20px;
-}
-
-.third-card span {
-   display: inline;
-   height: 20px;
-   width: 110px;
-   position: absolute;
-   margin: 25px 20px 20px;
-}
-
-.third-card #card_discription {
-   height: 90px;
-   width: 340px;
-   position: relative;
-   margin: 20px 0 0 0;
-   padding: 0px;
+   font-size: 15px;
+   font-weight: 500;
+   color: hsl(0, 0%, 100%);
 }
 
 .attribution {
