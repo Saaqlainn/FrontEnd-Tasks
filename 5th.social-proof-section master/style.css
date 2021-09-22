@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
 
 body {
@@ -22,8 +22,8 @@ main {
 }
 
 .container {
-   border: 2px solid black;
-   border-style: dashed;
+   /* border: 2px solid black;
+   border-style: dashed; */
    height: 560px;
    width: 1230px;
    display: flex;
@@ -33,7 +33,7 @@ main {
 }
 
 .content {
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    height: 250px;
    width: 1230px;
    margin: 0;
@@ -44,7 +44,7 @@ main {
 }
 
 .heading {
-   border: 2px solid red;
+   /* border: 2px solid red; */
    height: 250px;
    width: 600px;
    display: flex;
@@ -58,7 +58,7 @@ main {
 }
 
 h1 {
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    height: 140px;
    width: 275px;
    margin: 0 0 0 0px;
@@ -70,7 +70,7 @@ h1 {
 }
 
 #discription {
-   border: 1px solid rgb(255, 0, 0);
+   /* border: 1px solid rgb(255, 0, 0);/ */
    height: 100px;
    width: 500px;
    margin: 0;
@@ -80,7 +80,7 @@ h1 {
 }
 
 .ratings {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    height: 250px;
    width: 650px;
    padding: 0px 75px 0 0;
@@ -95,7 +95,7 @@ h1 {
 }
 
 #reviews {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    height: 50px;
    width: 400px;
    margin: 0 80px 20px 0px;
@@ -108,7 +108,7 @@ h1 {
    color: hsl(300, 43%, 22%);
 }
 #report_guru {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    height: 50px;
    width: 400px;
    margin: 0 40px 20px 0px;
@@ -121,7 +121,7 @@ h1 {
    color: hsl(300, 43%, 22%);
 }
 #bestTech {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    height: 50px;
    width: 400px;
    margin: 0 20px 20 0px;
@@ -135,7 +135,7 @@ h1 {
 }
 
 .card_container {
-   border: 1px solid green;
+   /* border: 1px solid green; */
    height: 300px;
    width: 1230px;
    display: flex;
