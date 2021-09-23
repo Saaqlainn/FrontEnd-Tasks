@@ -226,7 +226,7 @@ h1 {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      margin-top: 610px;
+      margin-top: 410px;
    }
 
    .content {
@@ -301,7 +301,7 @@ h1 {
    }
    
    footer {
-      margin-top: 270px;
+      margin-top: 480px;
       margin-left: 154px;
    }
 }
