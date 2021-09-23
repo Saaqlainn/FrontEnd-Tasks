@@ -212,7 +212,7 @@ h1 {
 @media screen and (min-width: 320px) and (max-width: 768px) {
    main {
       height: 100vh;
-      width: 100vw;
+      width: 130vw;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -221,7 +221,7 @@ h1 {
 
    .container {
       height: 1400px;
-      width: 580px;
+      width: 480px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -251,7 +251,7 @@ h1 {
       justify-content: center;
       align-items: center;
       margin-left:0px;
-      width: 580px;
+      width: 650px;
    }
 
    #reviews {
@@ -286,7 +286,7 @@ h1 {
       margin: -100px;
       padding: 0px;
       height: auto;
-      width: 580px;        
+      width: 420px;        
       margin-top:20px;
    }
    #card-1 {
@@ -297,5 +297,10 @@ h1 {
    }
    #card-3 {
       margin-top: 20px;
+   }
+   
+   footer {
+      margin-top: 270px;
+      margin-left: 154px;
    }
 }
