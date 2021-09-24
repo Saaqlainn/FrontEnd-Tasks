@@ -159,13 +159,3 @@ body {
 
 
 
-footer {
-   border: 1px solid red;
-}
-.attribution {
-   font-size: 11px;
-   text-align: center;
-}
-.attribution a {
-   color: hsl(228, 45%, 44%);
-}
