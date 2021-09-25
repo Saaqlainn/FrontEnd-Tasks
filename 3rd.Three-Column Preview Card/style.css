@@ -1,125 +1,21 @@
-* {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+@media screen and (min-width: 320px) and (max-width: 480px) {
+   #card {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 20px;
+      padding: 20px;
+   }
+
+   #card__one {
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0px;
+   }
+
+   #card__three {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 10px;
+   }
 }
-
-body {
-   margin: 0;
-   padding: 0;
-   font-size: 15px;
-   color: hsl(0, 0%, 95%);
-}
-
-#main__container {
-   /* border: 2px solid black;
-    border-style: dashed; */
-   height: 100vh;
-   width: 100vw;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-}
-
-#card {
-   /* border: 2px solid blue;
-   border-style: dashed; */
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   height: 500px;
-   width: 808px;
-   padding: 10px;
-   border-radius: 10px;
-}
-
-.title {
-   font-size: large;
-   font-weight: 700;
-   font-family: "Big Shoulders Display";
-   text-transform: uppercase;
-   color: hsl(0, 0%, 95%);
-   margin-top: 2px;
-}
-
-.discription {
-   display: flex;
-   align-items: center;
-   margin: -25px 0 35px 0;
-   height: 140px;
-   width: 201px;
-   /* border: 2px solid red; */
-   font-weight: 400;
-   font-size: 15px;
-   font-family: "Lexend Deca", sans-serif;
-   line-height: 23px;
-   color: hsla(0, 0%, 100%, 0.75);
-}
-
-#card__one {
-   /* border: 2px solid green;
-    border-style: dotted; */
-   height: 481px;
-   width: 260px;
-   margin: 0;
-   padding: 25px 25px 25px 35px;
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: space-around;
-   background-color: hsl(31, 77%, 52%);
-   color: #ffff;
-   border-top-left-radius: 10px;
-   border-bottom-left-radius: 10px;
-}
-
-#card__two {
-   /* border: 2px solid green;
-    border-style: dotted; */
-   height: 481px;
-   width: 260px;
-   margin: 0;
-   padding: 25px 25px 25px 35px;
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: space-around;
-   background-color: hsl(184, 100%, 22%);
-   color: #ffff;
-   /* font-family: "Montserrat", sans-serif; */
-}
-
-#card__three {
-   /* border: 2px solid green;
-    border-style: dotted; */
-   height: 481px;
-   width: 260px;
-   margin: 0;
-   padding: 25px 25px 25px 35px;
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: space-around;
-   background-color: hsl(179, 100%, 13%);
-   color: #ffff;
-   border-top-right-radius: 10px;
-   border-bottom-right-radius: 10px;
-   /* font-family: "Montserrat", sans-serif; */
-}
-
-button {
-   height: 40px;
-   width: 130px;
-   font-size: 13px;
-   font-weight: bold;
-   font-family: "Lexend Deca", sans-serif;
-   border-radius: 25px;
-   border-style: none;
-   background-color: hsl(0, 0%, 95%);
-}
-
-button:hover {
-   background: transparent;
-   border: 2px solid #ffff;
-   cursor: pointer;
-}
-
-
