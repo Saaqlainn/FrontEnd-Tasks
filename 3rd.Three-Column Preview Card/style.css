@@ -58,8 +58,8 @@ body {
 }
 
 #card__one {
-   /* border: 2px solid green;
-    border-style: dotted; */
+   border: 2px solid green;
+    border-style: dotted;
    height: 481px;
    width: 260px;
    margin: 0;
@@ -74,8 +74,8 @@ body {
 }
 
 #card__two {
-   /* border: 2px solid green;
-    border-style: dotted; */
+   border: 2px solid green;
+    border-style: dotted;
    height: 481px;
    width: 260px;
    margin: 0;
@@ -89,8 +89,8 @@ body {
 }
 
 #card__three {
-   /* border: 2px solid green;
-    border-style: dotted; */
+   border: 2px solid green;
+    border-style: dotted;
    height: 481px;
    width: 260px;
    margin: 0;
