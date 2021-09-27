@@ -6,13 +6,15 @@
 }
 :root {
    --heading-color: hsl(300, 43%, 22%);
-   --discription-color : hsl(300, 43%, 22%);
-   --background-color : hsl(300, 43%, 22%);
+   --discription-color : hsl(303, 10%, 53%);
+   --card-para-color : hsl(0, 0%, 100%);
+   --background-color : hsl(300, 24%, 96%);
    --cards-color: hsl(300, 43%, 22%);
+   --name-color : hsl(333, 80%, 67%);
 }
 
 body {
-   background-color: hsl(0, 0%, 100%);
+   background-color: var(--background-color);
    font-size: 15px;
    font-family: "Spartan", sans-serif;
    background: url(images/bg-pattern-bottom-desktop.svg);
