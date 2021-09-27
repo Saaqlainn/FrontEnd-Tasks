@@ -139,7 +139,7 @@ h1 {
    font-size: 15px;
    font-weight: bold;
    background-color: hsl(300, 24%, 96%);
-   color: hsl(300, 43%, 22%);
+   color:var(--heading-color);
 }
 
 .card_container {
