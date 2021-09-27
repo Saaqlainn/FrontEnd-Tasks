@@ -175,7 +175,7 @@ h1 {
    margin: 5px 0 0px 20px;
    font-size: 15px;
    font-weight: bold;
-   color: hsl(0, 0%, 100%);
+   color: var(--card-para-color);
 }
 
 .all-cards span {
@@ -185,7 +185,7 @@ h1 {
    position: absolute;
    margin: 25px 20px 20px;
    font-weight: 500;
-   color: hsl(333, 80%, 67%);
+   color: var(--name-color);
 }
 
 .all-cards .card_discription {
