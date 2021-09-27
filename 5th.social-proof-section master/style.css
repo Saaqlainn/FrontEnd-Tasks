@@ -196,7 +196,7 @@ h1 {
    padding: 0px;
    font-size: 15px;
    font-weight: 500;
-   color: hsl(0, 0%, 100%);
+   color: var(--card-para-color);
 }
 
 #card-1 {
