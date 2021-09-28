@@ -29,10 +29,23 @@ main {
 }
 
 .main_container {
+   height: 550px;
+   width:  1430px;
    border: 2px solid black;
    border-style: dashed;
    display: flex;
-   flex-direction:row ;
+   flex-direction: row;
+
+   .main-img {
+      border: 2px solid blue;
+      height: 525px;
+      width: 715px;
+   }
+
+   .info {
+      height: 525px;
+      width: 715px;
+   }
 }
 
 footer {
