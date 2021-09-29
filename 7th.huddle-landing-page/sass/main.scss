@@ -14,14 +14,18 @@ body {
 }
 
 header {
-   border: 2px solid black;
+   // border: 2px solid black;
    height: 110px;
-   width: 1430px;
-   margin: 0;
+   width: 400px;
+   margin: 0 0 50px 0;
    padding: 0 0 0 30px ;
    display: flex;
    flex-direction: row;
    align-items: center;
+
+   img {
+      
+   }
 }
 
 main {
@@ -29,15 +33,15 @@ main {
 }
 
 .main_container {
-   border: 2px solid black;
+   // border: 2px solid black;
+   // border-style: dashed;
    height: 550px;
    width: 1430px;
-   border-style: dashed;
    display: flex;
    flex-direction: row;
 
    .main-img {
-      border: 2px solid blue;
+      // border: 2px solid blue;
       height: 525px;
       width: 760px;
       margin: 0;
@@ -45,7 +49,7 @@ main {
    }
 
    .info {
-      border: 3px solid orange;
+      // border: 3px solid orange;
       height: 525px;
       width: 680px;
       margin: 0;
@@ -57,7 +61,7 @@ main {
    }
 
    .title {
-      border: 2px solid blue;
+      // border: 2px solid blue;
       height: 120px;
       width: 410px;
       margin: 10px;
@@ -67,7 +71,7 @@ main {
    }
 
    .discription {
-      border: 2px solid violet;
+      // border: 2px solid violet;
       height: 125px;
       width: 480px;
       margin: 10px;
