@@ -101,7 +101,7 @@ footer {
    width: 1430px;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
 
    // ul li {
@@ -134,9 +134,6 @@ footer {
 
    ul li a {
       color: #ffff;
-      height: 50px;
-      width: 250px;
-      border: 2px solid red;
       margin-right: 0px;
       list-style: none;
       font-size: 20px;
@@ -155,11 +152,19 @@ footer {
 
    .attribution {
       border: 2px solid red;
-      // display: inline;/
-      font-size: 11px;
+      color: #ffff;
+      height: 70px ;
+      width: 550px;
+      font-size: 16px;
       text-align: center;
+      padding: 5px;
+      margin-left:100px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
    }
    .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: hsl(247, 100%, 50%);
    }
 }
