@@ -11,6 +11,8 @@ body {
    background-color: #2471a3;
    font-weight: 400;
    font-family: 'Open Sans', sans-serif;
+   background: url(../images/bg-desktop.svg);
+   
 }
 
 header {
@@ -71,7 +73,7 @@ main {
    }
 
    .discription {
-      border: 2px solid violet;
+      // border: 2px solid violet;
       height: 125px;
       width: 480px;
       margin: 10px 0 0 10px;
