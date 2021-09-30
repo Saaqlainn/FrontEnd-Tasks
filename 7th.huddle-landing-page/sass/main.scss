@@ -16,11 +16,11 @@ body {
 }
 
 header {
-   // border: 2px solid black;
+   border: 2px solid black;
    height: 110px;
    width: 400px;
    margin: 0 0 50px 0;
-   padding: 0 0 0 30px ;
+   padding: 0 0 0 55px ;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -35,27 +35,27 @@ main {
 }
 
 .main_container {
-   // border: 2px solid black;
-   // border-style: dashed;
+   border: 2px solid black;
+   border-style: dashed;
    height: 550px;
    width: 1430px;
    display: flex;
    flex-direction: row;
 
    .main-img {
-      // border: 2px solid blue;
-      height: 525px;
-      width: 760px;
+      border: 2px solid blue;
+      height: 545px;
+      width: 840px;
       margin: 0;
-      padding: 0 0 0 30px ;
+      padding: 25px 0 0 55px;
    }
 
    .info {
-      // border: 3px solid orange;
-      height: 525px;
-      width: 680px;
-      margin: 0;
-      padding: 40px 0 0 30px ;
+      border: 3px solid orange;
+      height: 545px;
+      width: 600px;
+      margin: 0 0 0 40px;
+      padding: 40px 0 0 0px ;
       color: white;
       display: flex;
       flex-direction: column;
@@ -63,7 +63,7 @@ main {
    }
 
    .title {
-      // border: 2px solid blue;
+      border: 2px solid blue;
       height: 120px;
       width: 410px;
       margin: 10px 0 0 10px;
@@ -73,10 +73,10 @@ main {
    }
 
    .discription {
-      // border: 2px solid violet;
-      height: 125px;
-      width: 480px;
-      margin: 10px 0 0 10px;
+      border: 2px solid violet;
+      height: 90px;
+      width: 500px;
+      margin: 10px 0 10px 10px;
       padding: 0 15px;
       line-height: 1.50;
    }
