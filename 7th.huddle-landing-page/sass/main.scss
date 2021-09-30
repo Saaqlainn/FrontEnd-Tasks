@@ -20,7 +20,7 @@ body {
 }
 
 header {
-   border: 2px solid black;
+   // border: 2px solid black;
    height: 110px;
    width: 400px;
    margin: 0 0 50px 0;
@@ -30,15 +30,14 @@ header {
    align-items: center;
 }
 .main_container {
-   border: 2px solid black;
-   border-style: dashed;
+   // border: 2px solid black;
    height: 550px;
    width: 1430px;
    display: flex;
    flex-direction: row;
 
    .main-img {
-      border: 2px solid blue;
+      // border: 2px solid blue;
       height: 545px;
       width: 840px;
       margin: 0;
@@ -46,7 +45,7 @@ header {
    }
 
    .info {
-      border: 3px solid orange;
+      // border: 3px solid orange;
       height: 545px;
       width: 600px;
       margin: 0 0 0 40px;
@@ -57,7 +56,7 @@ header {
    }
 
    .title {
-      border: 2px solid blue;
+      // border: 2px solid blue;
       height: 120px;
       width: 410px;
       margin: 10px 0 0 10px;
@@ -67,7 +66,7 @@ header {
    }
 
    .discription {
-      border: 2px solid violet;
+      // border: 2px solid violet;
       height: 90px;
       width: 500px;
       margin: 10px 0 10px 10px;
@@ -96,7 +95,7 @@ header {
 }
 
 footer {
-   border: 2px solid yellow;
+   // border: 2px solid yellow;
    height: 100px;
    width: 1430px;
    display: flex;
@@ -120,7 +119,7 @@ footer {
 
    // }
    .icons {
-      border: 2px solid yellow;
+      // border: 2px solid yellow;
       height: 70px;
       width: 250px;
       display: flex;
@@ -151,7 +150,7 @@ footer {
    }
 
    .attribution {
-      border: 2px solid red;
+      // border: 2px solid red;
       color: #ffff;
       height: 70px ;
       width: 550px;
