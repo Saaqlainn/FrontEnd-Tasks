@@ -10,7 +10,7 @@ body {
    width: 100vw;
    background-color: #2471a3;
    font-weight: 400;
-   font-family: 'Open Sans', sans-serif;
+   font-family: "Open Sans", sans-serif;
    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
    background-repeat: no-repeat;
 }
@@ -20,20 +20,11 @@ header {
    height: 110px;
    width: 400px;
    margin: 0 0 50px 0;
-   padding: 0 0 0 55px ;
+   padding: 0 0 0 55px;
    display: flex;
    flex-direction: row;
    align-items: center;
-
-   img {
-      
-   }
 }
-
-main {
-
-}
-
 .main_container {
    border: 2px solid black;
    border-style: dashed;
@@ -55,11 +46,10 @@ main {
       height: 545px;
       width: 600px;
       margin: 0 0 0 40px;
-      padding: 40px 0 0 0px ;
+      padding: 40px 0 0 0px;
       color: white;
       display: flex;
       flex-direction: column;
-
    }
 
    .title {
@@ -69,7 +59,7 @@ main {
       margin: 10px 0 0 10px;
       padding: 15px;
       font-weight: 600;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
    }
 
    .discription {
@@ -78,7 +68,7 @@ main {
       width: 500px;
       margin: 10px 0 10px 10px;
       padding: 0 15px;
-      line-height: 1.50;
+      line-height: 1.5;
    }
 
    button {
