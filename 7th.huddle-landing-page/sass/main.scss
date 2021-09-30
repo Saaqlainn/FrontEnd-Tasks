@@ -4,6 +4,10 @@
    box-sizing: border-box;
    // border: 1px solid red;
 }
+:root {
+   --primary: hsl(257, 40%, 49%);
+   --button-bg: hsl(300, 69%, 71%);
+}
 
 body {
    height: 100vh;
@@ -11,7 +15,7 @@ body {
    background-color: #2471a3;
    font-weight: 400;
    font-family: "Open Sans", sans-serif;
-   background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
+   background: url(../images/bg-desktop.svg) var(--primary);
    background-repeat: no-repeat;
 }
 
@@ -69,23 +73,89 @@ header {
       margin: 10px 0 10px 10px;
       padding: 0 15px;
       line-height: 1.5;
+      font-weight: 400;
    }
 
    button {
-      height: 45px;
-      width: 200px;
+      height: 55px;
+      width: 220px;
       margin: 10px 0 0 20px;
       padding: 10px;
       font-size: 16px;
-      font-weight: bold;
-      border-radius: 25px;
+      font-weight: 400;
+      color: var(--primary);
+      border-radius: 30px;
       border-style: none;
-      box-shadow: 2px 2px 2px 2px grey;
+      box-shadow: 1px 6px 20px -3px #0000;
+
+      &:hover {
+         background-color: var(--button-bg);
+         cursor: pointer;
+      }
    }
 }
 
 footer {
+   border: 2px solid yellow;
+   height: 100px;
+   width: 1430px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+   // ul li {
+   //    // display: inline;
+   //    height: 50px;
+   //    width: 250px;
+   //    border: 2px solid red;
+   //    margin-right: 100px;
+   //    list-style: none;
+   //    font-size: 30px;
+   //    display: flex;
+   //    flex-direction: row;
+   //    justify-content: space-evenly;
+   //    align-items: center;
+   //    color: #ffff;
+
+   // }
+   .icons {
+      border: 2px solid yellow;
+      height: 70px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   ul li {
+      list-style: none;
+   }
+
+   ul li a {
+      color: #ffff;
+      height: 50px;
+      width: 250px;
+      border: 2px solid red;
+      margin-right: 0px;
+      list-style: none;
+      font-size: 20px;
+   }
+
+   .social {
+      border: 2px solid #ffff;
+      border-radius: 25px;
+      padding: 5px;
+      margin: 5px;
+   }
+
+   .social:hover {
+      cursor: pointer;
+   }
+
    .attribution {
+      border: 2px solid red;
+      // display: inline;/
       font-size: 11px;
       text-align: center;
    }
