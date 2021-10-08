@@ -6,6 +6,13 @@
    /* border:2px solid red; */
 }
 
+
+.discription {
+   width: 30rem;
+   border: 2px solid green;
+   padding: 1rem;
+   margin: 1rem;
+}
 .heading {
    min-height: 10rem;
    width: 28.2rem;
