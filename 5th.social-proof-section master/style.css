@@ -6,6 +6,13 @@
    /* border:2px solid red; */
 }
 
+:root {
+   --main-bg: hsl(0, 0%, 100%);
+   --star-col-and-font: hsl(303, 10%, 53%);
+   --card-and-main-font-bg: hsl(300, 43%, 22%);
+   --span-font-clr: hsl(333, 80%, 67%);
+}
+
 htmL {
    font-size: 62.5%;
    /* font-size: 100%; */
