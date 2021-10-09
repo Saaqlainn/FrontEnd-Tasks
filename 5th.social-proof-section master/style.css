@@ -1,5 +1,144 @@
+/* Global Styles */
+:root {
+   --main-bg: hsl(0, 0%, 100%);
+   --star-bg:hsl(300, 24%, 96%);
+   --primary-clr: hsl(300, 43%, 22%);
+   --secondary-clr: hsl(303, 10%, 53%);
+   --span-font-clr: hsl(333, 80%, 67%);
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+htmL {
+   font-size: 62.5%;
+   /* font-size: 100%; */
+}
+
+body {
+   font-family: "Spartan", sans-serif;
+   padding: 2rem;
+   font-size: 1.6rem;
+   background: var(--main-bg);
+}
+
+.center-text {
+   text-align: center;
+}
+.primary-content {
+   /* border: 2px solid red; */
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading {
+   /* min-height: 10rem; */
+   /* padding: 0.5rem; */
+   width: 25.2rem;
+   margin: 0 auto;
+   /* border: 2px solid blue; */
+   padding: 2rem 1rem;
+   margin: 0 1rem;
+   font-size: 2.2rem;
+   color: var(--primary-clr);
+}
+
+.discription {
+   /* width: 37rem; */
+   /* border: 2px solid green; */
+   width: 24.2rem;
+   padding: 1rem .5rem;
+   margin: 0 1rem;
+   font-size: 1.2rem;
+   font-weight: bold;
+   line-height: 1.7;
+   color: var(--secondary-clr);
+}
+
+span {
+   display: block;
+}
+
+.fiv-star {
+   border: 2px solid grey;
+   padding: 1rem 3rem;
+   margin: 1rem;
+   border-radius: 0.8rem;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color:var(--star-bg);
+}
+
+.stars {
+   margin-bottom: 0.6rem;
+}
+
+.str-txt {
+   color: var(--primary-clr);
+}
+
+.card-container {
+   /* border: 1px solid blue; */
+   position: relative;
+   /* width: 40rem; */
+   padding: 0 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* font-size: 1.2rem; */
+}
+
+.all-cards {
+   /* border: 1px solid red; */
+   margin: 1rem;
+   padding: 2rem;
+   width: 26rem;
+   top: -6rem;
+   left: 9rem;
+   font-size: 1rem;
+   border-radius: 10px;
+   line-height: 1.5;
+   background: var(--primary-clr);
+   color: #fff;
+}
+
+.name {
+   position: relative;
+   top: -3.5rem;
+   left: 5rem;
+}
+
+.img {
+   height: 3.5rem;
+   width: 3.5rem;
+   border-radius: 65px;
+}
+
+.crd-data {
+   margin-top: -2rem;
+   padding: 0;
+}
+
+footer {
+   font-size: 1.4rem;
+   margin: 1rem;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+   html {
+      font-size: 71%;
+   }
+
    main {
-      border: 2px solid red;
+      /* border: 2px solid red; */
       height: 100%;
       width: 100%;
       display:flex;
@@ -10,15 +149,26 @@
    }
 
    .primary-content {
-      border: 2px solid yellow;
+      /* border: 2px solid yellow; */
       width: 100%;
       display: flex;
       flex-direction: row;
+      justify-content: flex-start;
       flex-wrap: wrap;
    }
-   
+
    .showcase-txt {
       text-align: left;
+   }
+
+   .ratings {
+      /* border: 2px solid red; */
+      width: 55rem;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
    }
 
    .fiv-star {
@@ -33,12 +183,94 @@
       margin-top: .5rem;
    }
 
-   .report_guru {
-      margin-left: 4rem;
+   .reviews {
+      margin-right: 6rem;
    }
 
-   .bestTech {
-      margin-left: 8rem;
+   .report_guru {
+      margin-right: 3rem;
+   }
+
+
+   .card-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0;
+   }
+
+   .all-cards {
+      padding: 2rem;
+   }
+   .card-2 {
+      margin-top: 3rem;
+   }
+
+   .card-3 {
+      margin-top: 6rem;
+   }
+}
+
+@media screen and (min-width:1024px) and (max-width: 1440px) {
+   html {
+      font-size:88%;
+   }
+
+   main {
+      /* border: 2px solid red; */
+      height: 100%;
+      width: 100%;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   .primary-content {
+      /* border: 2px solid yellow; */
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   }
+   
+   .showcase-txt {
+      text-align: left;
+   }
+
+   .ratings {
+      /* border: 2px solid red; */
+      width: 55rem;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+   }
+
+   .fiv-star {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      width: 36rem;
+   }
+
+   .str-txt {
+      margin-left: 1rem;
+      margin-top: .5rem;
+   }
+
+   .reviews {
+      margin-right: 6rem;
+   }
+
+   .report_guru {
+      margin-right: 3rem;
    }
 
    .card-container {
@@ -61,3 +293,5 @@
    .card-3 {
       margin-top: 6rem;
    }
+
+}
