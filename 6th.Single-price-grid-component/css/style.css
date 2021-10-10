@@ -1,0 +1,150 @@
+:root {
+  --main-bg: hsl(204, 43%, 93%);
+  --btn-bg: hsl(71, 73%, 54%);
+  --crd-frst-bg:hsl(187, 1%, 97%);
+  --crd-sec-bg: hsl(179, 62%, 43%,1);
+  --crd-thrd-bg: hsl(179, 62%, 43%,.7);
+}
+
+@media (min-width: 786px) and (max-width: 1024px) {
+  main .price-card .wrapper {
+    display: flex;
+  }
+  main .price-card .wrapper .second-div {
+    width: 50%;
+  }
+  main .price-card .wrapper .third-div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  main .price-card .wrapper {
+    display: flex;
+  }
+  main .price-card .wrapper .second-div {
+    width: 50%;
+  }
+  main .price-card .wrapper .third-div {
+    width: 50%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--main-bg);
+}
+
+main .crd {
+  padding: 1rem;
+  text-align: left;
+}
+
+main .first-div {
+  font-size: 1.2rem;
+  background-color: var(--crd-frst-bg);
+}
+
+main .first-div .show-titl {
+  margin: 1rem;
+  font-weight: 700;
+}
+
+main .first-div .show-txt {
+  margin: 2rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 4rem;
+}
+
+main .first-div .show-disc {
+  display: block;
+  margin: 2rem 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+main .second-div {
+  background-color: var(--crd-sec-bg);
+  color: #fff;
+}
+
+main .second-div .show-titl {
+  display: block;
+  margin: 0.6rem 0 2rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+main .second-div .dollar {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .second-div .month {
+  display: block;
+  position: relative;
+  margin-left: 4.5rem;
+  margin-top: -2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+main .second-div .plan {
+  display: block;
+  margin: 1.2rem 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+main .second-div .btn {
+  margin: 3rem 0 2rem 1rem;
+  padding: 1.3rem 9rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Karla", sans-serif;
+  border-style: none;
+  border-radius: .3rem;
+  background-color: var(--btn-bg);
+}
+
+main .second-div .btn:hover {
+  background-color: #c7f316;
+  cursor: pointer;
+}
+
+main .third-div {
+  color: #fff;
+  background-color: var(--crd-thrd-bg);
+}
+
+main .third-div .show-titl {
+  display: block;
+  margin: 0.6rem 0 2rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+main .third-div span {
+  display: block;
+  margin-left: 1rem;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
