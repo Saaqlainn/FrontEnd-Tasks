@@ -1,0 +1,28 @@
+footer {
+    .icons {
+       // border: 2ps solid red ;
+       font-size: 1.6rem;
+       color: #fff;
+    }
+ 
+    ul li {
+       list-style: none;
+       width: 15rem;
+       margin-left: 4rem;
+       font-size: 1.6rem;
+       display: flex;
+       justify-content: center;
+    }
+ 
+    ul li a {
+       color: #fff;
+       border: 2px solid #fff;
+       margin: 0.6rem;
+       padding: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 25px;
+    }
+ }
+ 
