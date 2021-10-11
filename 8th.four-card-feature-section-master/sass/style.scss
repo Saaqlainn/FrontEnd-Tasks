@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+   --Cyan: hsl(180, 62%, 55%);
+   --Red: hsl(0, 78%, 62%);
+   --Orange: hsl(34, 97%, 64%);
+   --Blue: hsl(212, 86%, 64%);
+   --Very-Dark-Blue: hsl(234, 12%, 34%);
+   --Grayish-Blue: hsl(229, 6%, 66%);
+   --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 50.5%;
+   font-family: "Poppins", sans-serif;
+
+   body {
+      // height: 100%;
+      // width: 100%;
+
+      padding: 3rem;
+      .container {
+         // min-height: 100vh;
+         // min-width: 100vw;
+         // overflow-x: hidden;
+         // height: 100%;
+         // width: 100%;
+         border: 2px solid rgb(15, 2, 2);
+         // padding: 2rem;
+         margin: 3rem 1rem;
+
+         .showcase-top {
+            // width: 50%;
+
+            border: 2px solid red;
+            padding: 1rem;
+            text-align: center;
+            .title {
+               margin: 1rem 0;
+               font-weight: 400;
+            }
+            span {
+               display: block;
+            }
+            .hd-t {
+               margin: 1rem 0;
+               font-size: 2rem;
+               font-weight: 600;
+            }
+            .cntn-t {
+               padding: 0 0.8rem;
+               margin: 1rem 0 4rem;
+               font-size: 1.3rem;
+               line-height: 1.8;
+            }
+         }
+
+         .showcase-bottom {
+            // border: 2px solid violet;
+            // margin: 1rem ;
+            // padding: 2rem;
+
+            .card {
+               //    border: 2px solid red;
+               // width: 50%;
+               margin: 1rem 1rem;
+               padding-left: 0.8rem;
+               padding-bottom: 0.6rem;
+               border-top: 2px solid rgb(194, 190, 190);
+               border-radius: 0.8rem;
+               box-shadow: 1px 6px 14px 0px rgba(95, 91, 91, 0.75);
+
+               h1 {
+                  margin-top: 1rem;
+                  padding: 1rem 1rem 0rem;
+               }
+               .data {
+                  display: block;
+                  margin-bottom: 2rem;
+                  padding: 0 1rem;
+                  font-size: 1.3rem;
+                  line-height: 1.8;
+               }
+
+               img {
+                  display: block;
+                  width: 15%;
+                  margin: 3rem 0 3rem 25rem;
+               }
+            }
+
+            .card-1 {
+               border-top: 5px solid var(--Cyan);
+            }
+            .card-2 {
+               border-top: 5px solid var(--Red);
+            }
+            .card-3 {
+               border-top: 5px solid var(--Orange);
+            }
+            .card-4 {
+               border-top: 5px solid var(--Blue);
+            }
+         }
+      }
+   }
+}
+
+// <style>
+// .attribution { font-size: 11px; text-align: center; }
+// .attribution a { color: hsl(228, 45%, 44%); }
+// </style>
