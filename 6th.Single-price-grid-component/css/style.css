@@ -7,25 +7,37 @@
 }
 
 @media (min-width: 786px) and (max-width: 1024px) {
-  main .price-card .wrapper {
+  html {
+    font-size: 70%;
+  }
+  html body main {
+    padding: 10rem;
+  }
+  html body main .price-card .wrapper {
     display: flex;
   }
-  main .price-card .wrapper .second-div {
+  html body main .price-card .wrapper .second-div {
     width: 50%;
   }
-  main .price-card .wrapper .third-div {
+  html body main .price-card .wrapper .third-div {
     width: 50%;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  main .price-card .wrapper {
+  html {
+    font-size: 90%;
+  }
+  html body main {
+    padding: 10rem;
+  }
+  html body main .price-card .wrapper {
     display: flex;
   }
-  main .price-card .wrapper .second-div {
+  html body main .price-card .wrapper .second-div {
     width: 50%;
   }
-  main .price-card .wrapper .third-div {
+  html body main .price-card .wrapper .third-div {
     width: 50%;
   }
 }
@@ -42,11 +54,14 @@ html {
 }
 
 main {
+  border: 2px solid red;
   height: 100%;
   width: 100%;
-  text-align: center;
   padding: 2rem;
   background-color: var(--main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .crd {
@@ -121,7 +136,7 @@ main .second-div .btn {
   font-weight: bold;
   font-family: "Karla", sans-serif;
   border-style: none;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   background-color: var(--btn-bg);
 }
 
