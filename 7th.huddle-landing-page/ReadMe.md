@@ -1,2 +1,2 @@
 
-https://saaqlainn.github.io/FrontEnd-Tasks/7th.huddle-landing-page/
+https://saaqlainn.github.io/FrontEnd-Tasks/7th.huddle-landing-page/html
