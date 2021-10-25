@@ -26,7 +26,6 @@ Frontend Mentor Challenges Help you To Improve Your Coding Skills By Building Re
 
 - Sass Preprocessor
 
-- Css Grid
 
 
 ## Author
