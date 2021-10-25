@@ -10,14 +10,14 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   color: #ffffff;
    font-size: 15px;
+   color: #ffffff;
    background-color: hsl(233, 47%, 7%);
 }
 
 .card__container {
-   border: 2px solid yellow;
-    border-style: dashed;
+   /* border: 2px solid yellow;
+    border-style: dashed; */
    height: 100vh;
    width: 100vw;
    display: flex;
@@ -54,9 +54,9 @@ body {
 }
 
 #card_title {
-   margin-bottom: 10px;
    height: auto;
    width: 285px;
+   margin-bottom: 10px;
    font-family: "Inter", sans-serif;
    font-weight: bold;
    font-size: 500;
@@ -72,20 +72,20 @@ span {
    height: auto;
    width: 375px;
    font-size: 14px;
-   color: hsla(0, 0%, 100%, 0.75);
    font-family: "Inter", sans-serif;
    line-height: 23px;
+   color: hsla(0, 0%, 100%, 0.75);
 }
 
 #insight_container {
    /* border: 2px solid red; */
+   height: auto;
+   width: 300px;
+   margin: 30px 0 0 0px;
+   padding: 0px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin: 30px 0 0 0px;
-   padding: 0px;
-   height: auto;
-   width: 300px;
    color: hsla(0, 0%, 100%, 0.6);
 }
 
@@ -106,10 +106,10 @@ span {
 #image_container {
    margin: 0;
    padding: 0;
-   background-color: hsl(277, 64%, 61%);
    z-index: 1;
    border-bottom-right-radius: 5px;
    border-top-right-radius: 5px;
+   background-color: hsl(277, 64%, 61%);
 }
 
 #image_container img {
@@ -145,8 +145,8 @@ span {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: hsl(233, 47%, 7%);
       text-align: center;
+      background-color: hsl(233, 47%, 7%);
    }
 
    #image_container {
@@ -178,9 +178,9 @@ span {
    }
 
    .card {
-      margin: 180px 0 0 0;
       height: 713px;
       width: 312px;
+      margin: 180px 0 0 0;
       display: flex;
       flex-flow: column wrap;
    }
@@ -191,10 +191,10 @@ span {
    }
 
    #card_title {
-      display: flex;
-      flex-wrap: wrap;
       height: auto;
       width: 220px;
+      display: flex;
+      flex-wrap: wrap;
    }
 
    #card_discription {
@@ -210,17 +210,3 @@ span {
    }
 }
 
-/* @media (min-width:768px) and (max-width:880px) {
-   main {
-      height: 100%;
-      width:100%;
-   }
-   body {
-      padding: 20px;
-   }
-   .card__container {
-      box-sizing: border-box;
-      padding: 20px;
-
-   }
-} */
