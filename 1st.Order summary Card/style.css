@@ -22,13 +22,7 @@ main {
 }
 
 .card__container {
-   height: 700px;
-   width: 500px;
    margin-top: 50px;
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: center;
-   align-items: center;
 }
 
 .card {
@@ -43,7 +37,7 @@ main {
 .card__image {
    /* border: 2px solid red; */
    height: 165px;
-   width: autopx;
+   width: auto;
    background-image: url(images/illustration-hero.svg);
    background-position: center;
    background-repeat: no-repeat;
@@ -74,6 +68,7 @@ main {
 }
 
 #card__title {
+   font-size: 16px;
    margin-top: 0px;
    font-weight: 900;
    font-weight: bold;
@@ -185,4 +180,51 @@ footer {
 
 .attribution a {
    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:320px) and (max-width:768px) {
+   main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+   .card {
+      height: 565px;
+      width: 300px;
+   }
+   #card__title {
+      font-size: 14px;
+   }
+   #card__discription {
+      font-size: 14px;
+   }
+   #annual__plan__container {
+      height: 70px;
+      width: 285px;
+   }
+   #card__plan__image img {
+      width: 31px;
+      height: 31px;
+      margin-left: -15px;
+  }
+  #card__price {
+     margin-right: 20px;
+     margin-left: -20px;
+  }
+  #annual_plan {
+     font-size: 14px;
+  }
+  #price {
+     font-size: 13px;
+  }
+  #change {
+     font-size: 14px;
+  }
+  #card__button button {
+     width: 272px;
+     font-size: 12px;
+  }
+  #cancel {
+     font-size: 13px;
+  }
 }
