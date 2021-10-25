@@ -1,0 +1,195 @@
+  Join our community
+
+  30-day, hassle-free money back guarantee
+
+  Gain access to our full library of tutorials along with expert code reviews. 
+  Perfect for any developers who are serious about honing their skills.
+
+  Monthly Subscription
+
+  &dollar;29 per month
+
+  Full access for less than &dollar;1 a day
+
+  Sign Up
+
+  Why Us
+
+  Tutorials by industry experts
+  Peer &amp; expert code review
+  Coding exercises
+  Access to our GitHub repos
+  Community forum
+  Flashcard decks
+  New videos every week
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: "Karla", sans-serif;
+   font-size: 15px;
+   background-color: hsl(204, 43%, 93%);
+}
+
+/* span {
+   display: block;
+} */
+
+.price-card {
+   /* border: 1px solid black; */
+   height: 550px;
+   width: 800px;
+   border-radius: 10px;
+}
+
+.first-div {
+   /* border: 1px solid green; */
+   height: 250px;
+   width: 800px;
+   padding: 50px;
+   background-color: #ffff;
+}
+
+.first-div h2 {
+   /* border: 1px solid black; */
+   margin-bottom: 15px;
+   display: block;
+   height: 35px;
+   width: 270px;
+}
+
+.first-div p {
+   /* border: 1px solid black; */
+   margin-bottom: 10px;
+   display: block;
+   height: 30px;
+   width: 350px;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.first-div span {
+   /* border: 1px solid black; */
+   display: block;
+   height: 55px;
+   width: 550px;
+   margin-bottom: 10px;
+   padding: 5px;
+   line-height: 23px;
+   font-weight: bold;
+   line-height: 20px;
+}
+
+.wrapper {
+   /* border: 1px solid rgb(0, 0, 95); */
+   height: 300px;
+   width: 800px;
+   display: flex;
+   flex-direction: row;
+}
+
+.second-div {
+   /* border: 2px solid rgb(211, 0, 0); */
+   height: 300px;
+   width: 800px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   background-color: hsl(179, 62%, 43%);
+}
+
+.second-div .title {
+   /* border: 1px solid red; */
+   height: 30px;
+   width: 200px;
+   margin: 0 0 20px 0;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.second-div .dollar {
+   /* border: 1px solid red; */
+   height: 40px;
+   width: 160px;
+   margin-right: 10px;
+   font-size: 20px;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.second-div .month {
+   font-size: 15px;
+   padding-left: 10px;
+   text-align: center;
+}
+
+.second-div .plan {
+   /* border: 1px solid red; */
+   height: 30px;
+   width: 250px;
+   margin: 20px 0 40px 0;
+   font-weight: bold;
+}
+
+.second-div button {
+   height: 70px;
+   width: 250px;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   border-style: none;
+   box-shadow: 2px 2px 2px;
+}
+
+.third-div {
+   /* border: 2px solid rgb(255, 0, 255); */
+   height: 300px;
+   width: 800px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   background-color: hsl(179, 62%, 43%);
+}
+
+.third-div p {
+   /* border: 1px solid red; */
+   height: 30px;
+   width: 100px;
+   margin-bottom: 20px;
+   font-size: 17px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.third-div span {
+   height: 20px ;
+   width: 200px;
+   margin-bottom: 5px;
+}
+
+footer {
+   border: 1px solid red;
+}
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
