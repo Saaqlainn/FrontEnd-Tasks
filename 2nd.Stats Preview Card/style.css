@@ -128,8 +128,14 @@ span {
 }
 
 .attribution a {
-   color: #ffff;
+   color: rgb(139, 139, 139);
    text-decoration: none;
+}
+
+.attribution a:hover {
+   color: rgb(87, 87, 247);
+   border: 1px solid rgb(6, 135, 158);
+   padding: 2px;
 }
 
 @media  (min-width: 320px) and (max-width: 872px) {
