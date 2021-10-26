@@ -4,7 +4,7 @@ Hi!✋ This Is The Solutions To The Profile card Component On Frontend Mentor.
 
 ## 🛰Live URL
 
- - [ Order Summary Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/Order%20summary%20Card)
+ - [Profile Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/Profile%20card%20component) 
 
 
 # My Process
