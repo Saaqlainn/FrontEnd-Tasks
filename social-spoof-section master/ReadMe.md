@@ -4,7 +4,7 @@ Hi!✋ This Is The Solutions To The Social Spoof Section Master Solution On Fron
 
 ##  🚀Live URL
 
- - [ Social Spoof Section Master ](https://saaqlainn.github.io/FrontEnd-Tasks/Order%20summary%20Card)
+ - [Social Spoof Section Master](https://saaqlainn.github.io/FrontEnd-Tasks/social-spoof-section%20master)
 
 
 # My Process
