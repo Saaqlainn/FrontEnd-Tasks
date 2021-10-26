@@ -1,41 +1,3 @@
-:root {
-  --main-bg: hsl(204, 43%, 93%);
-  --btn-bg: hsl(71, 73%, 54%);
-  --crd-frst-bg:hsl(187, 1%, 97%);
-  --crd-sec-bg: hsl(179, 62%, 43%,1);
-  --crd-thrd-bg: hsl(179, 62%, 43%,.7);
-}
-
-@media (min-width: 786px) and (max-width: 1024px) {
-  html {
-    font: size 70%;
-  }
-  main .price-card .wrapper {
-    display: flex;
-  }
-  main .price-card .wrapper .second-div {
-    width: 50%;
-  }
-  main .price-card .wrapper .third-div {
-    width: 50%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1440px) {
-  html {
-    font: size 90%;
-  }
-  html main .price-card .wrapper {
-    display: flex;
-  }
-  html main .price-card .wrapper .second-div {
-    width: 50%;
-  }
-  html main .price-card .wrapper .third-div {
-    width: 50%;
-  }
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -51,36 +13,39 @@ main {
   border: 2px solid red;
   height: 100%;
   width: 100%;
-  padding: 10rem;
-  background-color: var(--main-bg);
+  padding: 2rem;
+  background-color: #e5eff5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main .crd {
+main .cards {
   padding: 1rem;
   text-align: left;
 }
 
 main .first-div {
   font-size: 1.2rem;
-  background-color: var(--crd-frst-bg);
+  background-color: white;
 }
 
-main .first-div .show-titl {
+main .first-div .heading {
   margin: 1rem;
   font-weight: 700;
+  color: #2ab2af;
 }
 
-main .first-div .show-txt {
+main .first-div .head-text {
   margin: 2rem 1rem;
   font-size: 1.2rem;
   font-weight: bold;
   padding-right: 4rem;
+  color: #c0df34;
+  opacity: 1;
 }
 
-main .first-div .show-disc {
+main .first-div .paragraph {
   display: block;
   margin: 2rem 1rem;
   padding-right: 1rem;
@@ -88,14 +53,16 @@ main .first-div .show-disc {
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.8;
+  color: #2ab2af;
+  opacity: 0.8;
 }
 
 main .second-div {
-  background-color: var(--crd-sec-bg);
-  color: #fff;
+  background-color: #2ab2af;
+  color: white;
 }
 
-main .second-div .show-titl {
+main .second-div .heading {
   display: block;
   margin: 0.6rem 0 2rem 1rem;
   font-size: 1.6rem;
@@ -125,13 +92,13 @@ main .second-div .plan {
 
 main .second-div .btn {
   margin: 3rem 0 2rem 1rem;
-  padding: 1.3rem 9rem;
+  padding: 1rem 7rem;
   font-size: 1.3rem;
   font-weight: bold;
   font-family: "Karla", sans-serif;
   border-style: none;
-  border-radius: .3rem;
-  background-color: var(--btn-bg);
+  border-radius: 0.3rem;
+  background-color: #c0df34;
 }
 
 main .second-div .btn:hover {
@@ -140,20 +107,57 @@ main .second-div .btn:hover {
 }
 
 main .third-div {
-  color: #fff;
-  background-color: var(--crd-thrd-bg);
+  color: white;
+  background-color: #2ab2af;
+  opacity: 0.7;
 }
 
-main .third-div .show-titl {
+main .third-div .heading {
   display: block;
   margin: 0.6rem 0 2rem 1rem;
   font-size: 1.6rem;
   font-weight: 700;
 }
 
-main .third-div span {
+main .third-div ul li {
   display: block;
   margin-left: 1rem;
   line-height: 1.8rem;
   font-size: 1.2rem;
+}
+
+@media (min-width: 786px) and (max-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
+  html body main {
+    padding: 10rem;
+  }
+  html body main .price-card .wrapper {
+    display: flex;
+  }
+  html body main .price-card .wrapper .second-div {
+    width: 50%;
+  }
+  html body main .price-card .wrapper .third-div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  html {
+    font-size: 90%;
+  }
+  html body main {
+    padding: 10rem;
+  }
+  html body main .price-card .wrapper {
+    display: flex;
+  }
+  html body main .price-card .wrapper .second-div {
+    width: 50%;
+  }
+  html body main .price-card .wrapper .third-div {
+    width: 50%;
+  }
 }
