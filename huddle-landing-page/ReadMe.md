@@ -1,4 +1,4 @@
-# Frontend Mentor - Hudle Landing Page Solution.
+# Frontend Mentor - Huddle Landing Page Solution.
 
 Hi!✋ This Is The Solutions To The Huddle Landing page On Frontend Mentor.
 
