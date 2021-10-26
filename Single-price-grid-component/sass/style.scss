@@ -1,0 +1,123 @@
+@import "base";
+@import "media-queries";
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html {
+   font-size: 62.5%;
+   font-family: "Karla", sans-serif;
+}
+
+main {
+   border: 2px solid red;
+   height: 100%;
+   width: 100%;
+   padding: 10rem;
+   background-color: var(--main-bg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   .crd {
+      // border: 2px solid red;
+      padding: 1rem;
+    //   margin: 1rem;
+      text-align: left;
+   }
+
+   .first-div {
+      font-size: 1.2rem;
+      background-color: var(--crd-frst-bg);
+
+      .show-titl {
+         margin: 1rem;
+         font-weight: 700;
+      }
+      .show-txt {
+         margin: 2rem 1rem;
+         font-size: 1.2rem;
+         font-weight: bold;
+         padding-right: 4rem;
+      }
+
+      .show-disc {
+        //  border: 2px solid red;
+         display: block;
+         margin: 2rem 1rem;
+         padding-right: 1rem;
+         padding-top: 1rem;
+         font-size: 1.2rem;
+         font-weight: bold;
+         line-height: 1.8;
+      }
+   }
+
+   .second-div {
+      // color:#fff;
+      background-color: var(--crd-sec-bg);
+      color: #fff;
+      .show-titl {
+         display: block;
+         margin: 0.6rem 0 2rem 1rem;
+         font-size: 1.6rem;
+         font-weight: 700;
+      }
+
+      .dollar {
+         margin-left: 1rem;
+         font-size: 2rem;
+         font-weight: bold;
+      }
+
+      .month {
+         display: block;
+         position: relative;
+         margin-left: 4.5rem;
+         margin-top: -2rem;
+         font-size: 1.3rem;
+         font-weight: 400;
+      }
+
+      .plan {
+         display: block;
+         margin: 1.2rem 0 0 1rem;
+         font-size: 1.2rem;
+      }
+
+      .btn {
+         margin: 3rem 0 2rem 1rem;
+         padding: 1.3rem 9rem;
+         font-size: 1.3rem;
+         font-weight: bold;
+         font-family: "Karla", sans-serif;
+         border-style: none;
+         border-radius: .3rem;
+         background-color: var(--btn-bg);
+      }
+      .btn:hover {
+          background-color:hsl(72, 90%, 52%);
+          cursor: pointer;
+      }
+   }
+
+   .third-div {
+       color: #fff;
+       background-color: var(--crd-thrd-bg);
+    .show-titl {
+        display: block;
+        margin: 0.6rem 0 2rem 1rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+     }
+
+     span {
+         display: block;
+         margin-left: 1rem;
+         line-height: 1.8rem;
+         font-size: 1.2rem;
+     }
+   }
+}
