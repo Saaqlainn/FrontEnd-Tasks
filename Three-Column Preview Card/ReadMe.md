@@ -2,9 +2,9 @@
 
 Hi!✋ This Is The Solutions To The Three Column Preview Card On Frontend Mentor.
 
-## 🛰Live URL
+## 🚀Live URL
 
- - [ Order Summary Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/Order%20summary%20Card)
+ - [Three Column Preview Card](https://saaqlainn.github.io/FrontEnd-Tasks/Three-Column%20Preview%20Card)
 
 
 # My Process
