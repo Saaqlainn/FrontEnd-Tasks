@@ -2,9 +2,9 @@
 
 Hi!✋ This Is The Solutions To The Single Price grid Component On Frontend Mentor.
 
-## 🛰Live URL
+## 🚀Live URL
 
- - [ Order Summary Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/Order%20summary%20Card)
+ - [Single Price Grid component](https://saaqlainn.github.io/FrontEnd-Tasks/Single-price-grid-component/)
 
 
 # My Process
