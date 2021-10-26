@@ -2,9 +2,9 @@
 
 Hi!✋ This Is The Solutions To The Stats Priview Card On Frontend Mentor.
 
-## 🛰Live URL
+## 🚀Live URL
 
- - [ Order Summary Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/Order%20summary%20Card)
+ - [Stats Preview Card Component](https://saaqlainn.github.io/FrontEnd-Tasks/Stats%20Preview%20Card) 
 
 
 # My Process
