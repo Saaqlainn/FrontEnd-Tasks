@@ -4,7 +4,7 @@ Hi!✋ This Is The Solutions To The Huddle Landing page On Frontend Mentor.
 
 ##  🚀Live URL
 
- - [ Huddle Landing Page ](https://saaqlainn.github.io/FrontEnd-Tasks/Order%20summary%20Card)
+ - [huddle-landing-page](https://saaqlainn.github.io/FrontEnd-Tasks/huddle-landing-page)
 
 
 # My Process
