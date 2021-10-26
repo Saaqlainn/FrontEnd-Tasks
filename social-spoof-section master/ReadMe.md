@@ -1,6 +1,6 @@
 # Frontend Mentor - Social Spoof Section Master Solution.
 
-Hi!✋ This Is The Solutions To The Social Section Master Solution On Frontend Mentor.
+Hi!✋ This Is The Solutions To The Social Spoof Section Master Solution On Frontend Mentor.
 
 ##  🚀Live URL
 
