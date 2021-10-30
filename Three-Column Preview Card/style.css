@@ -123,9 +123,10 @@ img {
    color: #fff;
    background: transparent;
    cursor: pointer;
+   transition: 0.25s;
 }
 
-@media (min-width: 895px) and (max-width: 1440px) {
+@media (min-width: 895px) {
    html {
       font-size: 70%;
    }
