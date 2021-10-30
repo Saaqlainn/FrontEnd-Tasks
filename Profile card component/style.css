@@ -30,13 +30,15 @@ body {
    justify-content: center;
    border-radius: 1rem;
    background-color: #ffff;
+   overflow: hidden;
 }
 
 .profile_card .bg_image img {
    height: 13rem;
    width: 30rem;
-   border-top-right-radius: 1rem;
-   border-top-left-radius: 1rem;
+   /* border-top-right-radius: 1rem;
+   border-top-left-radius: 1rem; */
+   /* overflow: hidden; */
 }
 
 .victor_data {
