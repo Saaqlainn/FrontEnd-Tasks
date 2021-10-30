@@ -9,7 +9,7 @@ html {
 }
 
 body {
-   height: 100vh;
+   min-height: 100vh;
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -73,7 +73,7 @@ h1 span {
    color: hsl(0, 0%, 40%);
 }
 
-.victors_reach {
+.profile-stats {
    /* border: 1px solid red; */
    height: 13.5rem;
    width: 30rem;
@@ -85,6 +85,7 @@ h1 span {
    align-items: flex-start;
    text-align: center;
    letter-spacing: 1px;
+   list-style: none;
 }
 
 p {
